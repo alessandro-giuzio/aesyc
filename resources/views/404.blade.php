@@ -1,8 +1,7 @@
 @extends('layouts.app')
 @section('content')
 @include('sections.hero-404')
-@include('sections.features-404')
-  <h1>404404040404</h1>
+@include('sections.blog-404')
   @endsection
 
 {{-- @section('content')

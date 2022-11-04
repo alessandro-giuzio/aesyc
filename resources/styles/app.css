@@ -10,3 +10,7 @@ body {
 .btn {
   @apply rounded-[4px] border-[1px] border-aesyc-background bg-gradient-to-r from-primary-0 to-primary-100 px-6 text-center font-sans text-base font-bold leading-10 text-bg1;
 }
+
+.blog-card {
+  @apply flex flex-col items-start gap-4 p-0;
+}
