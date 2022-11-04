@@ -10,8 +10,8 @@
   @endif --}}
 {{-- </header> --}}
 
-  <div class="">
-    <div class="flex items-center gap-4 bg-secondary-0">
+
+    <div class="flex items-center justify-between gap-4 bg-bg1 py-4 px-[120px]">
         {{-- logo --}}
         <div>
           <svg width="135" height="48" viewBox="0 0 135 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -26,12 +26,12 @@
       </div>
         {{-- navigation --}}
         <div class="flex gap-4 items-center justify-end">
-          <a href="#" class="text-base text-secondary-50 font-noleading-10 text.center">Home</a>
-          <a href="#" class="text-base text-secondary-50 font-noleading-10 text.center">Blog</a>
-          @include('components.button' , ['text' => 'Tevereinbaren'])
+          <a href="#" class="text-base text-txPri font-leading-10 text-center tracking-[0.2px]">Home</a>
+          <a href="#" class="text-base text-txPri font-leading-10 text-center tracking-[0.2px]">Blog</a>
+          @include('components.button' , ['text' => 'Termin vereinbaren'])
       </div>
     </div>
-</div>
+
 
 
 

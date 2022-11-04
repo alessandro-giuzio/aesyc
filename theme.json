@@ -1135,14 +1135,19 @@
           "color": "#881337"
         },
         {
+          "name": "Aesyc Background",
+          "slug": "aesyc-background",
+          "color": "linear-gradient(180deg, #dee600 0%, #adcc00 100%)"
+        },
+        {
           "name": "Primary 0",
           "slug": "primary-0",
-          "color": "#dee500"
+          "color": "#dee600"
         },
         {
           "name": "Primary 50",
           "slug": "primary-50",
-          "color": "#dee600"
+          "color": "#dee500"
         },
         {
           "name": "Primary 100",
@@ -1150,14 +1155,29 @@
           "color": "#adcc00"
         },
         {
-          "name": "Secondary 0",
-          "slug": "secondary-0",
+          "name": "Bg1",
+          "slug": "bg1",
           "color": "#181816"
         },
         {
-          "name": "Aesyc Background",
-          "slug": "aesyc-background",
-          "color": "linear-gradient(180deg, #dee600 0%, #adcc00 100%)"
+          "name": "Bg2",
+          "slug": "bg2",
+          "color": "#262622"
+        },
+        {
+          "name": "Bg3",
+          "slug": "bg3",
+          "color": "#0d0d0c"
+        },
+        {
+          "name": "TxPri",
+          "slug": "txpri",
+          "color": "#dbdbd7"
+        },
+        {
+          "name": "TxSec",
+          "slug": "txsec",
+          "color": "#b7b7ae"
         }
       ]
     },

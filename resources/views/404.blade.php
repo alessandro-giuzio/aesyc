@@ -1,8 +1,9 @@
 @extends('layouts.app')
-
-
+@section('content')
+@include('sections.hero-404')
+@include('sections.features-404')
   <h1>404404040404</h1>
-
+  @endsection
 
 {{-- @section('content')
   @include('partials.page-header')

@@ -7,18 +7,21 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: {
-          0: "#DEE500",
-          50: "#DEE600",
-          100: "#ADCC00",
-        },
-        secondary: {
-          0: "#181816",
-          50: "#B7B7AE",
-        },
         aesyc: {
           background: "linear-gradient(180deg, #DEE600 0%, #ADCC00 100%)",
         },
+        primary: {
+          0: "#DEE600",
+          50: "#DEE500",
+          100: "#ADCC00",
+        },
+        bg1: "#181816",
+        bg2: "#262622",
+        bg3: "#0D0D0C",
+
+        txPri: "#DBDBD7",
+
+        txSec: "#B7B7AE",
       },
       spacing: {
         "8xl": "96rem",
