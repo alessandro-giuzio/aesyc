@@ -1,7 +1,7 @@
 <div class="blog-card">
     <!-- Image Container -->
     <div class="max-w-sm">
-
+    <img src= {{ $img }} alt="prova">
     </div>
     <!-- Heading Container -->
     <div class="flex flex-col items-start p-0">
