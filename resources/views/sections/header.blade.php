@@ -1,6 +1,6 @@
 <header class="bg-bg3 md:top-0 z-50 px-4 xl:px-0  overflow-x-hidden">
     <div
-      class="w-full max-w-6.5xl flex md:justify-between items-center mx-auto py-4"
+      class="w-full max-w-6.5xl flex md:justify-between items-center mx-auto py-4 px-4"
     >
       <!-- Logo Container -->
       <div class="flex items-center p-0 gap-4">

@@ -1,8 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+<h1 class="text-4xl text-red-600 uppercase">Titolo Contact</h1>
  {{--  @include('partials.page-header') --}}
-<h1 class="text-5xl text-purple-600 font-bold uppercase text-center">Index</h1>
+
 {{--   @if (! have_posts())
     <x-alert type="warning">
       {!! __('Sorry, no results were found.', 'sage') !!}
