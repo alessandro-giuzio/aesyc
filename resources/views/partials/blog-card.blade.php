@@ -6,7 +6,7 @@
     <!-- Heading Container -->
     <div class="flex flex-col items-start p-0">
       <!-- Category & Date Container -->
-      <div class="flex justify-between items-center py-2 px-0 gap-4">
+      <div class="flex justify-between items-center py-2 px-0 gap-52">
         <p
           class="text-sm text-primary-50 font-bold leading-4 text-center uppercase"
         >

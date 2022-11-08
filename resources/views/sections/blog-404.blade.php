@@ -6,7 +6,7 @@
         </div>
         {{-- card container --}}
         <div class="flex flex-col md:flex-row gap-12">
-            @include('partials.blog-card', ['text' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'], ['img' => @asset ('images/blog-category/blog-card-1.png')])
+            @include('partials.blog-card',  ['text' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'], ['img' => @asset ('images/blog-category/blog-card-1.png')])
             @include('partials.blog-card', ['text' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'], ['img' => @asset ('images/blog-category/blog-card.png')])
             @include('partials.blog-card', ['text' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'], ['img' => @asset ('images/blog-category/blog-card-1.png')])
         </div>
