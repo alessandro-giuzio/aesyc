@@ -1,9 +1,8 @@
 <article @php(post_class())>
   <header>
-    <h1 class="text-red-500 entry-title uppercase" style="color:red">
+    <h1 class="entry-title">
       {!! $title !!}
     </h1>
-    hello world
 
     @include('partials.entry-meta')
   </header>

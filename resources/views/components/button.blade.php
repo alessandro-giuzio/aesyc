@@ -1,5 +1,3 @@
-
-
 <button  class="btn">
-{{ $text}}
-</button>
+    {{ $text}}
+    </button>

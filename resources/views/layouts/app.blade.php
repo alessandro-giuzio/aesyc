@@ -2,9 +2,9 @@
   {{ __('Skip to content') }}
 </a>
 
-  @include('sections.header')
+@include('sections.header')
 
-<main id="main" class="main">
+  <main id="main" class="main">
     @yield('content')
   </main>
 
