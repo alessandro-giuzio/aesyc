@@ -2,9 +2,9 @@
   {{ __('Skip to content') }}
 </a>
 
-@include('sections.header')
 
-  <main id="main" class="main">
+@include('sections.header')
+  <main id="main" class="main   bg-bg1">
     @yield('content')
   </main>
 
