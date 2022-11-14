@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Roots\Acorn\ServiceProvider;
 
+
 class ThemeServiceProvider extends ServiceProvider
 {
     /**
@@ -25,4 +26,6 @@ class ThemeServiceProvider extends ServiceProvider
     {
         //
     }
+
 }
+

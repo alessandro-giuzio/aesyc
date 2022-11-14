@@ -102,14 +102,16 @@ add_action('after_setup_theme', function () {
         'script',
         'style',
     ]);
-
     /**
      * Enable selective refresh for widgets in customizer.
      *
      * @link https://developer.wordpress.org/themes/advanced-topics/customizer-api/#theme-support-in-sidebars
      */
     add_theme_support('customize-selective-refresh-widgets');
-}, 20);
+
+
+}, 20
+);
 
 /**
  * Register the theme sidebars.
@@ -133,4 +135,10 @@ add_action('widgets_init', function () {
         'name' => __('Footer', 'sage'),
         'id' => 'sidebar-footer',
     ] + $config);
+
+
 });
+
+
+
+

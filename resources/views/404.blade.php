@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-  @include('partials.page-header')
   @include('partials.hero-404')
   @include('partials.content-404')
  {{--  @if (! have_posts())

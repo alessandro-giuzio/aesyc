@@ -77,3 +77,5 @@ collect(['setup', 'filters'])
 */
 
 add_theme_support('sage');
+
+

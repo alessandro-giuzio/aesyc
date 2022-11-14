@@ -6,10 +6,9 @@
   {{-- heading --}}
   @include('partials.heading' , ['text' => 'Blog'])
   {{-- hero card --}}
-  <div class="flex items-center">
-
-    @include('partials.hero-blog')
-  </div>
+<div class="flex items-center">
+  @include('partials.hero-blog')
+</div>
   @if (! have_posts())
     <x-alert type="warning">
       {!! __('Sorry, no results were found.', 'sage') !!}
@@ -18,9 +17,14 @@
     {!! get_search_form(false) !!}
   @endif
 
-  @while(have_posts()) @php(the_post())
-    @includeFirst(['partials.content-' . get_post_type(), 'partials.content'])
+
+  <div class="flex flex-wrap  gap-8" style="flex-wrap:wrap">
+
+  @while(have_posts())  @php(the_post())
+    @include('partials.blog-card')
   @endwhile
+  </div>
+
 
   {!! get_the_posts_navigation() !!}
 </div>
