@@ -4,7 +4,7 @@
 
 
 @include('sections.header')
-  <main id="main" class="main   bg-bg1">
+  <main id="main" class="main  bg-bg1">
     @yield('content')
   </main>
 

@@ -45,7 +45,7 @@
       </a>
       <a
         class="basis-1/5 md:basis-auto text-base text-bg3 md:text-txPri font-normal leading-10   flex flex-col py-2 md:py-0 md:inline  lg:px-4 text-center"
-        href="#"
+        href="/blog"
         target="_blank"
         rel="noopener noreferrer"
       >

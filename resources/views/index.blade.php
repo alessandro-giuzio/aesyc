@@ -9,6 +9,8 @@
 <div class="flex items-center">
   @include('partials.hero-blog')
 </div>
+{{-- tabs --}}
+@include ('partials.tabs-blog-category')
   @if (! have_posts())
     <x-alert type="warning">
       {!! __('Sorry, no results were found.', 'sage') !!}
@@ -17,7 +19,7 @@
     {!! get_search_form(false) !!}
   @endif
 
-
+{{-- blog posts cards --}}
   <div class="flex flex-wrap  gap-8" style="flex-wrap:wrap">
 
   @while(have_posts())  @php(the_post())
@@ -25,11 +27,16 @@
   @endwhile
   </div>
 
+  {{-- pagination --}}
+  <?php
+   if(function_exists('pagenavi')) { pagenavi(); }
+   ?>
+{{-- cta section --}}
+</div>
 
-  {!! get_the_posts_navigation() !!}
+@include('sections.cta-blog')
 </div>
 @endsection
-
 @section('sidebar')
   @include('sections.sidebar')
 @endsection

@@ -14,3 +14,45 @@ body {
 .blog-card {
   @apply flex flex-col items-start gap-4 p-0;
 }
+
+.pagenavi {
+  @apply mx-auto flex  items-center space-x-4 px-0 pt-8 pb-0 xl:space-x-[400px];
+}
+.pagenavi a {
+  padding: 5px 6px 4px 6px;
+  margin: 3px;
+  text-decoration: none;
+  color: #666;
+  background-color: inherit;
+}
+.pagenavi a:hover {
+  color: #444;
+  background-color: #dee600;
+}
+.pagenavi span.pages {
+  padding: 5px 6px 4px 6px;
+  margin: 3px;
+  color: #000000;
+  font-weight: bold;
+  /* border: 1px solid #777; */
+  background-color: inherit;
+}
+.pagenavi span.current {
+  padding: 5px 6px 4px 6px;
+  margin: 3px;
+  font-weight: bold;
+  color: #dee600;
+}
+.pagenavi span.expand {
+  padding: 5px 6px 4px 6px;
+  margin: 3px;
+  color: #444;
+  background-color: inherit;
+}
+.pagenavi .first,
+.pagenavi .last {
+  border: 1px solid #aaa;
+}
+.pagenavi .single_page {
+  /* border: 1px dashed #bbb; */
+}

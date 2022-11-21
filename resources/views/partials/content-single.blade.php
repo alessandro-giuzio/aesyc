@@ -13,7 +13,8 @@
 
   <footer>
     {!! wp_link_pages(['echo' => 0, 'before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']) !!}
+    <p class="text-white">footer article</p>
   </footer>
-
-  @php(comments_template())
+  @include('components.3CardsSection',['heading'=>'Entdecke unseren Blog'])
+  {{-- @php(comments_template()) --}}
 </article>

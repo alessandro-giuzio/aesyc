@@ -1,4 +1,4 @@
-<section>
+<div>
     <div class="bg-bg1 flex flex-col py-24 px-4 lg:px-[120px] gap-[10px]">
         <div class="flex flex-col gap-8">
             <div class="flex flex-col items-center gap-4">
@@ -9,7 +9,7 @@
                         </svg>
 
                 </div>
-                {{--    heaging --}}
+                {{--    heading --}}
                 <div class="flex flex-col items-center">
                     <p class="text-[42px] text-txPri font-bold leading-[64px] text-center">I swear the content was here a minute ago.</p>
                     <p class="text-2xl text-txSec font-normal leading-10 text-center max-w-lg">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
@@ -19,4 +19,4 @@
             </div>
         </div>
     </div>
-</section>
+</div>
