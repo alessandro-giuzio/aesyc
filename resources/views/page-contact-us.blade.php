@@ -2,18 +2,18 @@
 
 @section('content')
 
-  <div class="container">
+  <div class="container mx-auto pt-4">
     <div
-    class="max-w-6xl mx-auto md:px-6 flex flex-col space-y-8 md:flex-row md:space-y-0 items-center md:space-x-10"
+    class="max-w-6xl mx-auto md:px-6 flex flex-col space-y-8 md:flex-row md:space-y-0 items-center md:space-x-36"
   >
     <!-- Image Container -->
     <div class="md:basis-1/2 mx-auto relative">
       <img src= "@asset('images/contact/alex-starnes.png')" alt="prova">
-      <div class="absolute top-72 left-10 md:top-120 flex space-x-10">
+      <div class="-translate-y-[150px] translate-x-[110px]   flex space-x-20 ">
         <div
-          class="hidden xl:flex flex-col space-y-10.4 items-center"
+          class="hidden xl:flex flex-col space-y-10.4 items-center gap-8"
         >
-          <div class=" py-2 px-4 rounded-lg flex self-start bg-primary-0">
+          <div class=" py-2 px-4 rounded-lg flex self-start  bg-primary-0">
             <p class="text-base text-bg1 font-bold leading-8">
               Dein Ansprechpartner
             </p>
@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="hidden xl:flex flex-col space-y-10.4 items-center">
+        <div class="hidden xl:flex flex-col space-y-10.4 items-center gap-8">
           <div class="rounded-lg bg-primary-0  px-4 py-2 flex gap-2">
             <div>
               <div>
