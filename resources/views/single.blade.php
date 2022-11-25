@@ -9,5 +9,4 @@
   @include('partials.content-single')
   @include('sections.cta-single')
   @include('components.3CardsSection',['heading'=>'Entdecke witere Artikel'])
-
 @endsection

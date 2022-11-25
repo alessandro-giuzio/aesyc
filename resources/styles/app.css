@@ -93,3 +93,16 @@ ul.post-categories a {
   font-weight: 400;
   line-height: 32px;
 }
+
+.img-box::after {
+  content: "";
+  display: block;
+  background: #262622;
+  right: -50px;
+  top: 0;
+  width: 120px;
+  height: 100%;
+  z-index: 50;
+  position: absolute;
+  transform: skewX(-15deg);
+}
