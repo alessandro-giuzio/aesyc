@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
 
 @import "tailwindcss/base";
 @import "tailwindcss/components";
@@ -14,6 +14,10 @@ p {
 }
 .btn {
   @apply rounded-[4px] border-[1px] border-aesyc-background bg-gradient-to-r from-primary-0 to-primary-100 px-6 text-center font-sans text-base font-bold leading-10 text-bg1;
+}
+
+.btn-secondary {
+  @apply flex items-center justify-center rounded-[4px]  border-[1px]  px-6 text-center font-sans text-base font-bold leading-10 text-primary-50;
 }
 
 .blog-card {
@@ -105,4 +109,11 @@ ul.post-categories a {
   z-index: 50;
   position: absolute;
   transform: skewX(-15deg);
+}
+
+.landing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }

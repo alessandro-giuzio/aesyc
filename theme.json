@@ -1178,6 +1178,11 @@
           "name": "TxSec",
           "slug": "txsec",
           "color": "#b7b7ae"
+        },
+        {
+          "name": "Mono",
+          "slug": "mono",
+          "color": "#5c5c52"
         }
       ]
     },
@@ -1206,6 +1211,11 @@
           "name": "News Cycle",
           "slug": "sans",
           "fontFamily": "News Cycle,sans-serif"
+        },
+        {
+          "name": "Roboto Mono",
+          "slug": "mono",
+          "fontFamily": "Roboto Mono,monospace"
         }
       ],
       "fontSizes": [

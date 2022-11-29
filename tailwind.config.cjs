@@ -6,6 +6,12 @@ module.exports = {
       sans: ["News Cycle", "sans-serif"],
     },
     extend: {
+      backgroundImage: {
+        heroPattern: "url('/images/heroImage.png')",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+      },
       colors: {
         aesyc: {
           background: "linear-gradient(180deg, #DEE600 0%, #ADCC00 100%)",
@@ -22,13 +28,16 @@ module.exports = {
         txPri: "#DBDBD7",
 
         txSec: "#B7B7AE",
+        mono: "#5C5C52",
+      },
+
+      fontFamily: {
+        sans: ["News Cycle", "sans-serif"],
+        mono: ["Roboto Mono", "monospace"],
       },
       spacing: {
         "8xl": "96rem",
         "9xl": "128rem",
-      },
-      borderRadius: {
-        "4xl": "2rem",
       },
     },
   },

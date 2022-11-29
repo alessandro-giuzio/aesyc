@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.landing')
 
 @section('content')
-<h1>Lorem, ipsum dolor.</h1>
-
+@include('sections.hero-landing')
+@include('sections.social-proof-landing')
 @endsection

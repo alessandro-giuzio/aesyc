@@ -27,7 +27,7 @@
                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic eius beatae, inventore enim cumque ipsa quas! Dolorem doloribus quis, distinctio dolor quidem explicabo cum.
                   </p>
                   <!-- CTA -->
-                  <div>@include('components.button' , ['text' => 'Gesamten Artikel lesen'])
+                  <div class="btn">@include('components.button' , ['text' => 'Gesamten Artikel lesen'])
                   </div>
         </div>
 </div>
