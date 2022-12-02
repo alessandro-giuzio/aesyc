@@ -26,8 +26,11 @@ class Post extends Composer
     {
         return [
             'title' => $this->title(),
+            'someText' => '',
+
         ];
     }
+
 
     /**
      * Returns the post title.
@@ -66,4 +69,7 @@ class Post extends Composer
 
         return get_the_title();
     }
+
 }
+
+

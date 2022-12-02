@@ -1183,6 +1183,11 @@
           "name": "Mono",
           "slug": "mono",
           "color": "#5c5c52"
+        },
+        {
+          "name": "Gradient",
+          "slug": "gradient",
+          "color": "linear-gradient(180deg, #dee600 0%, #adcc00 100%)"
         }
       ]
     },

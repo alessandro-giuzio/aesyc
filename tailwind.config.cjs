@@ -6,9 +6,6 @@ module.exports = {
       sans: ["News Cycle", "sans-serif"],
     },
     extend: {
-      backgroundImage: {
-        heroPattern: "url('/images/heroImage.png')",
-      },
       borderRadius: {
         "4xl": "2rem",
       },
@@ -29,6 +26,8 @@ module.exports = {
 
         txSec: "#B7B7AE",
         mono: "#5C5C52",
+
+        gradient: "linear-gradient(180deg, #DEE600 0%, #ADCC00 100%)",
       },
 
       fontFamily: {
@@ -38,6 +37,10 @@ module.exports = {
       spacing: {
         "8xl": "96rem",
         "9xl": "128rem",
+      },
+      zIndex: {
+        heroImg: 49,
+        heroContainer: 48,
       },
     },
   },

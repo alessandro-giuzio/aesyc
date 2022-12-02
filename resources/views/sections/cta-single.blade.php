@@ -12,7 +12,7 @@
             <p class="text-xl text-txSec font-normal leading-8 max-w-lg">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
           </div>
           <!-- Button -->
-          @include('components.button' , ['text' => 'Some CTA text here'])
+          @include('components.button' , ['text' => 'Some CTA text here' , 'class'=>'btn'])
         </div>
       </div>
     </section>

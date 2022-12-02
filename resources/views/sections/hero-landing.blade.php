@@ -1,5 +1,5 @@
 <section id="hero-landing">
-<div class="flex flex-col items-center justify-center pt-24 px-4 md:px-[120px] pb-12">
+<div class="flex flex-col items-center justify-center pt-24 px-4 md:px-[120px] pb-12  hero-pattern">
     <div class="flex items-center justify-center gap-[72px]">
         <div class="flex flex-col items-start gap-12">
             {{-- text container --}}
@@ -9,8 +9,8 @@
             </div>
             {{-- cta container --}}
             <div class="flex items-start gap-2">
-                <div class="btn">@include('components.button' , ['text' => 'Primary CTA'])</div>
-                <div class="btn-secondary">@include('components.button' , ['text' => 'Secondary CTA'])</div>
+                @include('components.button' , ['text' => 'Primary CTA' , 'class'=>'btn'])
+                @include('components.button' , ['text' => 'Secondary CTA' , 'class'=>'btn-secondary'])
             </div>
             {{-- text & logo  --}}
             <div class="flex flex-col items-start gap-2">
@@ -23,9 +23,9 @@
             </div>
         </div>
         {{-- town image container --}}
-        <div class="">
-            <img src="@asset('../images/town.svg')" alt="">
+            <div>
+                <img src="@asset('../images/town.svg')" alt="" class="">
+            </div>
         </div>
-    </div>
 </div>
 </section>

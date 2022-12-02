@@ -9,9 +9,8 @@
                     <p class="text-xl text-txSec font-normal leading-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                 </div>
                 {{-- cta --}}
-                <div class="flex items-center gap-2">
-                    @include('components.button' , ['text' => 'some text here'])
-                </div>
+                @include('components.button' , ['text' => 'Some text here', 'class'=>'btn'])
+
             </div>
         </div>
     </div>
