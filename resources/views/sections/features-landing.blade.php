@@ -3,7 +3,7 @@
         <div class="flex items-center justify-center p-0 gap-[72px] max-h-[456px]">
             {{-- img container --}}
             <div class="flex items-center rounded-2xl">
-                <img src="@asset('../images/features-1.svg')" alt="">
+                <img src="@asset('../images/features.svg')" alt="">
             </div>
             {{-- text & select container --}}
             <div class="flex flex-col items-start gap-8">
