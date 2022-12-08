@@ -225,3 +225,11 @@ function round_num($num, $to_nearest) {
 	return 20;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+ function index(){
+    $imagesCols = [
+      ['img' => 1, 'src' => '../../themes/sage-alessandro/public/images/officeFirst.svg',],
+      ['img' => '../../themes/sage-alessandro/public/images/officeSec.svg',],
+      ['img' => '../../themes/sage-alessandro/public/images/officeThi.svg',],
+    ];
+}
