@@ -10,5 +10,6 @@
 @include('sections.tech-landing')
 @include('sections.stack-landing')
 @include('sections.testimonials-landing')
+@include('sections.featured-blog-landing')
 @include('sections.last-section-landing')
 @endsection

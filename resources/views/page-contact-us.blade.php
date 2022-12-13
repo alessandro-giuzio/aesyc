@@ -145,7 +145,7 @@
               >Ich akzeptiere die <span class="text-primary-0 font-bold">Datenschutzerklärung</span> und bin mit der Verarbeitung meiner Daten zwecks Kontaktaufnahme einverstanden.</label
             >
           </div>
-          @include('components.button' , ['text' => 'Nachricht senden', 'class'=>'btn'])
+          @include('components.button' , ['text' => 'Nachricht senden', 'class'=>'btn-pry'])
          {{--  <button
             type="submit"
             id="submit-button"

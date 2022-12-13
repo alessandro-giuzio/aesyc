@@ -9,7 +9,7 @@
                     <p class="text-xl text-txSec font-normal leading-8">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                 </div>
                 {{-- cta --}}
-                @include('components.button' , ['text' => 'Some text here', 'class'=>'btn'])
+                @include('components.button' , ['text' => 'Some text here', 'class'=>'btn-pry'])
 
             </div>
         </div>

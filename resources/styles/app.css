@@ -12,12 +12,12 @@ p {
   font-weight: 400;
   color: #b7b7ae;
 }
-.btn {
-  @apply rounded-[4px] border-[1px] border-aesyc-background bg-gradient-to-r from-primary-0 to-primary-100 px-6 text-center font-sans text-base font-bold leading-10 text-bg1;
+.btn-pry {
+  @apply rounded-[4px] border-[1px] border-aesyc-background bg-gradient-to-r from-primary-0 to-primary-100 px-6 text-center font-sans text-base font-bold uppercase leading-10 text-bg1;
 }
 
-.btn-secondary {
-  @apply flex items-center justify-center rounded-[4px]  border-[1px]  px-6 text-center font-sans text-base font-bold leading-10 text-primary-50;
+.btn-sec {
+  @apply rounded-[4px]  border-[1px]  px-6 text-center font-sans text-base font-bold uppercase leading-10 text-primary-50;
 }
 
 .blog-card {
@@ -123,4 +123,20 @@ ul.post-categories a {
   .social-pattern {
     background: linear-gradient(180deg, rgba(24, 24, 22, 0) 0%, #181816 50%);
   }
+  .pt-140 {
+    padding-top: 140px;
+  }
+}
+/* Tabs */
+.nav-tabs .nav-link {
+  @apply text-lg font-normal leading-8 text-txSec;
+}
+.nav-tabs .nav-link.active {
+  @apply border-b-primary-50 text-primary-50;
+}
+
+/* Carousel */
+
+.carousel-indicators [data-bs-target] {
+  @apply h-3 w-3 rounded-full bg-red-500;
 }

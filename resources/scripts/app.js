@@ -19,3 +19,4 @@ const main = async (err) => {
  */
 domReady(main);
 import.meta.webpackHot?.accept(main);
+import "tw-elements";

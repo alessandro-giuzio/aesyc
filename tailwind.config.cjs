@@ -21,6 +21,7 @@ module.exports = {
         bg1: "#181816",
         bg2: "#262622",
         bg3: "#0D0D0C",
+        bg5:'#41413a',
 
         txPri: "#DBDBD7",
 
@@ -46,6 +47,8 @@ module.exports = {
   },
   plugins: [
     require("@tailwindcss/typography"),
+    require("daisyui"),
+    require("tw-elements/dist/plugin"),
     // ...
   ],
 };

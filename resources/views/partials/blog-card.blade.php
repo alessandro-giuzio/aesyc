@@ -50,5 +50,5 @@
 
     @php(comments_template())
     <!-- CTA -->
-    <div class="btn">@include('components.button' , ['text' => 'Gesamten Artikel lesen'])</div>
+    <div class="btn-pry">@include('components.button' , ['text' => 'Gesamten Artikel lesen'])</div>
   </div>

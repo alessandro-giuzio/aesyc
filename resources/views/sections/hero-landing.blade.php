@@ -9,8 +9,8 @@
             </div>
             {{-- cta container --}}
             <div class="flex items-start gap-2">
-                @include('components.button' , ['text' => 'Primary CTA' , 'class'=>'btn'])
-                @include('components.button' , ['text' => 'Secondary CTA' , 'class'=>'btn-secondary'])
+                @include('components.button' , ['text' => 'Primary CTA' , 'class'=>'btn-pry'])
+                @include('components.button' , ['text' => 'Secondary CTA' , 'class'=>'btn-sec'])
             </div>
             {{-- text & logo  --}}
             <div class="flex flex-col items-start gap-2">

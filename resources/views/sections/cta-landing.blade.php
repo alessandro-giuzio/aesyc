@@ -9,7 +9,7 @@
                 </div>
                 {{-- cta container --}}
                 <div class="flex items-start gap-8">
-                    @include('components.button' , ['text' => 'Let’s start to automate your business today' , 'class'=>'btn'])
+                    @include('components.button' , ['text' => 'Let’s start to automate your business today' , 'class'=>'btn-pry'])
                 </div>
             </div>
         </div>

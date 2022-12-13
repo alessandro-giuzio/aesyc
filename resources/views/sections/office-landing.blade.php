@@ -8,9 +8,9 @@
         <div class="flex items-center gap-4">
 
 
-            @include('components.officeCols', ['title' => 'First Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => 'w-full md:w-1/2'])
-            @include('components.officeCols', ['title' => 'Second Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => 'flex-col-reverse'])
-            @include('components.officeCols', ['title' => 'Second Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => 'flex-col-reverse'])
+            @include('components.officeCols', ['title' => 'First Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => '','img' => @asset('../images/officeFirst.svg')])
+            @include('components.officeCols', ['title' => 'Second Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => 'pt-[240px] gap-8', 'img' => @asset('../images/officeSec.svg')])
+            @include('components.officeCols', ['title' => 'Third Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => 'pt-[240px] gap-4', 'img' => @asset('../images/officeThi.svg')])
         </div>
     </div>
 </section>

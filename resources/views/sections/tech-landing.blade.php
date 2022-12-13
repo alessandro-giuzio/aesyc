@@ -8,10 +8,10 @@
         </div>
         {{-- testimonials cards container --}}
         <div class="flex items-center p-0 gap-4">
-            @include('components.testimonialCard', ['title' => 'First Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial.svg'])
-            @include('components.testimonialCard', ['title' => 'Second Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial-1.svg', 'class' => 'bg-bg2'])
-            @include('components.testimonialCard', ['title' => 'Third Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial-2.svg'])
-            @include('components.testimonialCard', ['title' => 'Fourth Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial-3.svg'])
+            @include('components.testimonialCard', ['title' => 'First Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial.svg', 'class' => 'hover:bg-bg2 duration-150'])
+            @include('components.testimonialCard', ['title' => 'Second Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial-1.svg', 'class' => 'hover:bg-bg2 duration-150'])
+            @include('components.testimonialCard', ['title' => 'Third Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial-2.svg', 'class' => 'hover:bg-bg2 duration-150'])
+            @include('components.testimonialCard', ['title' => 'Fourth Card', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'img' => '../public/images/testimonial-3.svg', 'class' => 'hover:bg-bg2 duration-150'])
         </div>
     </div>
 </section>

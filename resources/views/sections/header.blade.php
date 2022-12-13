@@ -155,7 +155,7 @@
     <!-- CTA Container -->
 
     <div class="hidden md:flex items-center gap-2 shrink-0">
-      @include('components.button' , ['text' => 'Termin vereinbaren' , 'class'=>'btn'])
+      @include('components.button' , ['text' => 'Termin vereinbaren' , 'class'=>'btn-pry'])
     </div>
   </div>>
 {{--   <a class="brand" href="{{ home_url('/') }}">
