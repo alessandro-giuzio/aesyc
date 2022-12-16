@@ -1,3 +1,3 @@
-<button class="{{$class}}">
+<button class="{{$class}} cursor-pointer">
     {{ $text}}
 </button>

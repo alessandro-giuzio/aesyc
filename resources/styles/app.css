@@ -17,13 +17,13 @@ p {
 }
 
 .btn-sec {
-  @apply rounded-[4px]  border-[1px]  px-6 text-center font-sans text-base font-bold uppercase leading-10 text-primary-50;
+  @apply rounded-[4px]  border-[1px] px-6 text-center font-sans text-base font-bold uppercase leading-10 text-primary-50;
 }
 
 .blog-card {
   @apply flex flex-col items-start gap-4 p-0;
 }
-
+/* page navigation */
 .pagenavi {
   @apply mx-auto flex  items-center space-x-4 px-0 pt-8 pb-0 xl:space-x-[400px];
 }
@@ -97,7 +97,7 @@ ul.post-categories a {
   font-weight: 400;
   line-height: 32px;
 }
-
+/* featured image */
 .img-box::after {
   content: "";
   display: block;
@@ -134,9 +134,51 @@ ul.post-categories a {
 .nav-tabs .nav-link.active {
   @apply border-b-primary-50 text-primary-50;
 }
+/* carousel */
 
-/* Carousel */
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
 
-.carousel-indicators [data-bs-target] {
-  @apply h-3 w-3 rounded-full bg-red-500;
+.carousel-item {
+  -webkit-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+#carousel-1:checked
+  ~ .control-1
+  ~ .carousel-indicators
+  li:nth-child(1)
+  .carousel-bullet,
+#carousel-2:checked
+  ~ .control-2
+  ~ .carousel-indicators
+  li:nth-child(2)
+  .carousel-bullet,
+#carousel-3:checked
+  ~ .control-3
+  ~ .carousel-indicators
+  li:nth-child(3)
+  .carousel-bullet {
+  color: #000;
+  /*Set to match the Tailwind colour you want the active one to be */
 }

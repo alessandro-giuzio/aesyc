@@ -1,5 +1,5 @@
 <div class="flex items-center flex-col lg:flex-row  gap-4 lg:gap-12 mt-4">
-    <img class=" " src="@asset('/images/blog/blog-hero.png')" alt="">
+    <img class="img-box" src="@asset('/images/blog/blog-hero.png')" alt="">
         <div class="flex flex-col gap-4">
             <!-- Heading Container -->
             <div class="flex flex-col items-start p-0">
