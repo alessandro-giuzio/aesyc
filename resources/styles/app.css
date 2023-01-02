@@ -101,14 +101,14 @@ ul.post-categories a {
 .img-box::after {
   content: "";
   display: block;
-  background: #262622;
+  background: #181816;
   right: -50px;
   top: 0;
   width: 120px;
   height: 100%;
   z-index: 50;
   position: absolute;
-  transform: skewX(-15deg);
+  transform: skewX(-15deg) translateX(-396px);
 }
 
 .hero-pattern {

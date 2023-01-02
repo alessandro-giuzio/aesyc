@@ -42,6 +42,7 @@ module.exports = {
       zIndex: {
         heroImg: 49,
         heroContainer: 48,
+        heroHeading: 100,
       },
     },
   },

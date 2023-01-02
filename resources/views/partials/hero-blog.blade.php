@@ -1,6 +1,6 @@
-<div class="flex items-center flex-col lg:flex-row  gap-4 lg:gap-12 mt-4">
-    <img class="img-box" src="@asset('/images/blog/blog-hero.png')" alt="">
-        <div class="flex flex-col gap-4">
+<div class="flex items-center relative flex-col lg:flex-row  gap-4 lg:gap-12 mt-4">
+    <div class="img-box"><img  src="@asset('/images/blog/blog-hero.png')" alt=""></div>
+        <div class="flex flex-col gap-4 z-heroHeading">
             <!-- Heading Container -->
             <div class="flex flex-col items-start p-0">
                 <!-- Category & Date Container -->

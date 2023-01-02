@@ -9,9 +9,9 @@
                         Kontaktiere uns noch heute.</p>
                     </div>
                     {{-- cta --}}
-                    >@include('components.button' , ['text' => 'Schreib uns', 'class'=>'btn-pry'])
+                    @include('components.button' , ['text' => 'Schreib uns', 'class'=>'btn-pry'])
 
-                    <img src= "@asset('images/last-tinted.svg')" alt="prova" class="w-full -translate-y-[88%] blur-[2px]">
+                    <img src= "@asset('images/last-tinted.svg')" alt="prova" class="w-full -translate-y-[88%] blur-[2px] absolute">
             </div>
         </div>
     </div>

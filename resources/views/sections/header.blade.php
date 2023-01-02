@@ -1,7 +1,6 @@
-<header class="banner bg-bg3 md:top-0 z-50 px-4 xl:px-0  overflow-x-hidden">
+<header class="banner relative bg-bg3 md:top-0  px-4 xl:px-0  overflow-x-hidden">
   <div
-    class="w-full max-w-6.5xl flex md:justify-between items-center mx-auto py-4 px-4"
-  >
+    class="w-full max-w-6.5xl flex md:justify-between items-center mx-auto py-4 px-4">
     <!-- Logo Container -->
     <div class="flex items-center p-0 gap-4">
       <svg width="135" height="48" viewBox="0 0 135 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +15,7 @@
     </div>
     <!-- Nav Container -->
     <nav
-      class="bottom-0 left-0 bg-neutral-50 md:bg-transparent px-4 w-full z-50 fixed md:top-0 md:left-0 md:relative flex items-center justify-center md:justify-end gap-4 text-xs md:text-base grow"
+      class="z-10 bottom-0 left-0 bg-neutral-50 md:bg-transparent px-4 w-full  fixed md:top-0 md:left-0 md:relative flex gap-4 text-xs md:text-base grow"
     >
       <a
         class="basis-1/5 md:basis-auto text-base text-bg3 md:text-txPri font-normal leading-10   flex flex-col py-2 md:py-0 md:inline  lg:px-4 text-center"
@@ -155,9 +154,9 @@
     <!-- CTA Container -->
 
     <div class="hidden md:flex items-center gap-2 shrink-0">
-      @include('components.button' , ['text' => 'Termin vereinbaren' , 'class'=>'btn-pry'])
+      @include('components.button' , ['text' => 'Termin vereinbaren' , 'class'=>'btn-pry z-50'])
     </div>
-  </div>>
+  </div>
 {{--   <a class="brand" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a> --}}

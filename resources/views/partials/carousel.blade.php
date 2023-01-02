@@ -1,4 +1,4 @@
-<div class="carousel  relative  mx-auto" style="">
+ <div class="carousel   relative  mx-auto" style="">
     <div class="carousel-inner  relative overflow-hidden w-full mx-auto">
       <!--Slide 1-->
       <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
@@ -37,6 +37,12 @@
          </div>
       </div>
       <!-- slide indicators -->
+      <button
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"
+    ></button>
       <ol class="carousel-indicators border-2 border-red-500">
         <li class="inline-block mr-3">
           <label for="carousel-1">
