@@ -18,15 +18,16 @@
     "translate:mo": "wp i18n make-mo ./resources/lang ./resources/lang"
   },
   "devDependencies": {
-    "@roots/bud": "6.4.5",
-    "@roots/bud-tailwindcss": "6.4.5",
-    "@roots/sage": "6.4.5",
+    "@roots/bud": "^6.6.10",
+    "@roots/bud-tailwindcss": "^6.6.10",
+    "@roots/sage": "^6.6.10",
     "@tailwindcss/typography": "^0.5.7",
     "prettier": "^2.7.1",
     "prettier-plugin-tailwindcss": "^0.1.13"
   },
   "dependencies": {
     "daisyui": "^2.43.2",
+    "flowbite": "^1.6.0",
     "tw-elements": "^1.0.0-alpha13"
   }
 }

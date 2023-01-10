@@ -1,70 +1,80 @@
- <div class="carousel   relative  mx-auto" style="">
-    <div class="carousel-inner  relative overflow-hidden w-full mx-auto">
-      <!--Slide 1-->
-      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-      <div class="carousel-item absolute opacity-0" style="height:40vh;">
-        <div class="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center">
-          <div class="flex items-center justify-center gap-12">
-            @include('components.testimonialCarousel')
-         </div>
-        </div>
-      </div>
-      <!--Slide 2-->
-      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
-      <div class="carousel-item absolute opacity-0" style="height:40vh;">
-        <div class="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center">
-          <div class="flex items-center justify-center gap-12">
-            @include('components.testimonialCarousel')
-         </div>
-        </div>
-      </div>
-      <!--Slide 3-->
-      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
-      <div class="carousel-item absolute opacity-0" style="height:40vh;">
-        <div class="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center">
-          <div class="flex items-center justify-center gap-12">
-            @include('components.testimonialCarousel')
-         </div>
-        </div>
-      </div>
-      {{-- slide 4 --}}
-      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
-      <div class="carousel-item absolute opacity-0 mx-auto" style="height:40vh;">
-        <div class="h-full w-full mx-auto flex pt-6 md:pt-0 md:items-center">
-            <div class="flex items-center justify-center gap-12">
-               @include('components.testimonialCarousel')
-            </div>
-         </div>
-      </div>
-      <!-- slide indicators -->
-      <button
+<div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+    <button
       type="button"
-      data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="1"
       aria-label="Slide 2"
     ></button>
-      <ol class="carousel-indicators border-2 border-red-500">
-        <li class="inline-block mr-3">
-          <label for="carousel-1">
-            <div class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:bg-primary-50 active:bg-primary-50 checked:bg-primary-50  w-3 h-3 rounded-full bg-bg5"></div>
-          </label>
-        </li>
-        <li class="inline-block mr-3">
-          <label for="carousel-2">
-            <div class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:bg-primary-50 active:bg-primary-50 checked:bg-primary-50  w-3 h-3 rounded-full bg-bg5"></div>
-          </label>
-        </li>
-        <li class="inline-block mr-3">
-          <label for="carousel-3">
-            <div class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:bg-primary-50 active:bg-primary-50 checked:bg-primary-50  w-3 h-3 rounded-full bg-bg5"></div>
-          </label>
-        </li>
-        <li class="inline-block mr-3">
-          <label for="carousel-4">
-            <div class="carousel-bullet cursor-pointer block text-4xl text-gray-400 hover:bg-primary-50 active:bg-primary-50 checked:bg-primary-50  w-3 h-3 rounded-full bg-bg5"></div>
-          </label>
-        </li>
-      </ol>
-
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"
+    ></button>
+  </div>
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active relative float-left">
+      @include('components.testimonialCarousel')
+      {{-- <img
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+        class="block w-full"
+        alt="..."
+      /> --}}
+      {{-- <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div> --}}
     </div>
+    <div class="carousel-item relative float-left">
+      @include('components.testimonialCarousel-1')
+      {{-- <img
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+        class="block w-full"
+        alt="..."
+      /> --}}
+     {{--  <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div> --}}
+    </div>
+    <div class="carousel-item relative float-left">
+      @include('components.testimonialCarousel')
+      {{-- <img
+        src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+        class="block w-full"
+        alt="..."
+      /> --}}
+      {{-- <div class="carousel-caption hidden md:block absolute text-center">
+        <h5 class="text-xl">Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div> --}}
+    </div>
+  </div>
+  {{-- <button
+    class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> --}}
 </div>

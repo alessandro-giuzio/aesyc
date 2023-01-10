@@ -6,6 +6,8 @@
          <p class="text-4xl text-txPri font-bold leading-[56px] text-center">Clients have said some very nice things about us</p>
         </div>
         {{-- carousel --}}
+        <div class="flex flex-col items-center gap-8">
         @include('partials.carousel')
+        </div>
     </div>
 </section>
