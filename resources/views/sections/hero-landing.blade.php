@@ -1,7 +1,7 @@
 <section id="hero-landing">
     @include('partials.backgroundHome')
-    <div class="flex flex-col items-center justify-center pt-24 px-4 md:px-[120px] pb-12  hero-pattern">
-    <div class="flex items-center justify-center gap-[72px]">
+     <div class="flex flex-col items-center justify-center pt-24 px-4 md:px-[120px] pb-12  hero-pattern">
+        <div class="flex flex-col-reverse md:flex-row items-center justify-center gap-[72px]">
         <div class="flex flex-col items-start gap-12">
             {{-- text container --}}
             <div class="flex flex-col items-start max-w-xl">
@@ -22,11 +22,11 @@
                     <img src="@asset('../images/logo-partner-1.svg')" alt="">
                 </div>
             </div>
-        </div>
+         </div>
         {{-- town image container --}}
-            <div class="relative">
+        <div class="relative">
                 <img src="@asset('../images/town.svg')" alt="" class="">
-            </div>
         </div>
-</div>
+    </div>
+ </div>
 </section>

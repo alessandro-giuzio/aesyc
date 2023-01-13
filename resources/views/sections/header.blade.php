@@ -15,7 +15,7 @@
     </div>
     <!-- Nav Container -->
     <nav
-      class="z-10 bottom-0 left-0 bg-neutral-50 md:bg-transparent px-4 w-full  fixed md:top-0 md:left-0 md:relative flex gap-4 text-xs md:text-base grow"
+      class="z-10 bottom-0 left-0 bg-neutral-50 md:bg-transparent px-4 w-full  fixed md:top-0 md:left-0 md:relative flex gap-4 text-xs md:text-base grow items-center justify-center md:items-start md:justify-start"
     >
       <a
         class="basis-1/5 md:basis-auto text-base text-bg3 md:text-txPri font-normal leading-10   flex flex-col py-2 md:py-0 md:inline  lg:px-4 text-center"
