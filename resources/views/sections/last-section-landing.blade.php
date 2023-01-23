@@ -5,7 +5,7 @@
             <div class="flex flex-col justify-center items-center p-16 gap-8 rounded">
                 {{-- heading container --}}
                 <div class="flex flex-col items-center justify-center">
-                    <p class="text-4xl text-txPri font-bold leading-[56px] text-center max-w-xl">Kann’s losgehen? Wir sind bereit!
+                    <p class="text-2xl md:text-4xl text-txPri font-bold leading-[56px] text-center max-w-xl">Kann’s losgehen? Wir sind bereit!
                         Kontaktiere uns noch heute.</p>
                     </div>
                     {{-- cta --}}

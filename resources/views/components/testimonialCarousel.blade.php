@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center gap-8">
   {{-- item #1 --}}
-  <div id="item1" class="flex items-center justify-center gap-12">
+  <div id="item1" class="flex flex-col lg:flex-row items-center justify-center gap-12">
     <div class="flex items-center gap-4">
       <div class="flex items-center justify-center gap-3 p-4 rounded-[40px]">
         <div class="rounded-[4px]">

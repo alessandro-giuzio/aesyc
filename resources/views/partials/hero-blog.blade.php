@@ -1,5 +1,7 @@
 <div class="flex items-center relative flex-col lg:flex-row  gap-4 lg:gap-12 mt-4">
-    <div class="img-box"><img  src="@asset('/images/blog/blog-hero.png')" alt=""></div>
+    <div class="img-box">
+      <img  src="@asset('/images/blog/blog-hero.png')" alt="">
+    </div>
         <div class="flex flex-col gap-4 z-heroHeading">
             <!-- Heading Container -->
             <div class="flex flex-col items-start p-0">
@@ -26,8 +28,8 @@
                   >
                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente hic eius beatae, inventore enim cumque ipsa quas! Dolorem doloribus quis, distinctio dolor quidem explicabo cum.
                   </p>
+
                   <!-- CTA -->
                   @include('components.button' , ['text' => 'Gesamten Artikel lesen' , 'class'=>'btn-pry'])
-
         </div>
 </div>

@@ -1,7 +1,7 @@
 <section id="stack">
     <div class="flex flex-col items-center p-0 bg-bg3">
         <div class="flex items-start py-24 px-4 md:px-[120px] gap-16">
-            <div class="flex items-center p-0 gap-16">
+            <div class="flex flex-col md:flex-row items-center p-0 gap-16">
                 {{-- text --}}
             <div class="flex flex-col items-start gap-4">
                 @include('partials.heading', ['text' => 'Our Stack of choice'])
