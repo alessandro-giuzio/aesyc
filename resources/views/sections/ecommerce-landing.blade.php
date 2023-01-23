@@ -1,5 +1,5 @@
 <section id="ecommerce">
-    <div class="flex items-center justify-center p-0 gap-[72px]">
+<div class="flex flex-col-reverse md:flex-row items-center justify-center p-0 gap-[72px]">
         {{-- text and tabs container --}}
         <div class="flex flex-col gap-8">
             {{-- text --}}
@@ -13,9 +13,10 @@
           <div class="flex flex-col items-start gap-4">
             @include('components.tabs')
         </div>
-    </div>
+      </div>
     {{-- img container --}}
     <div class="flex items-center rounded-2xl">
         <img src="@asset('../images/commerce.svg')" alt="">
     </div>
+</div>
 </section>

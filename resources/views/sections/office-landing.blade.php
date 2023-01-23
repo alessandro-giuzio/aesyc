@@ -5,7 +5,7 @@
             @include('partials.heading', ['text' => 'Lorem lorem lorem'])
         </div>
         {{-- columns --}}
-        <div class="flex items-center gap-4">
+        <div class="flex flex-col md:flex-row items-center gap-4">
 
 
             @include('components.officeCols', ['title' => 'First Title', 'body'=>'At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.', 'class' => '','img' => @asset('../images/officeFirst.svg')])

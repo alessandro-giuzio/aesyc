@@ -1,5 +1,5 @@
 <section id="cta-landing">
-    <div class="bg-bg3 flex flex-col items-center py-16 px-4 md:px-[120px] gap-4">
+    <div class="bg-bg3 flex flex-col items-center py-16 px-2 md:px-[120px] gap-4">
         <div class="flex flex-col items-center gap-4">
             <div class="flex flex-col items-center gap-12">
                 {{-- text container --}}

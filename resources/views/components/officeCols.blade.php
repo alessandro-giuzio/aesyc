@@ -1,4 +1,4 @@
-<div class="{{$class}} flex flex-col gap-8 w-1/3">
+<div class="{{$class}} flex flex-col gap-8 md:w-1/3">
       {{-- img --}}
       <img src="{{$img}}" alt="">
       {{-- tex container --}}
