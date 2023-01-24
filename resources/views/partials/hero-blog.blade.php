@@ -30,6 +30,6 @@
                   </p>
 
                   <!-- CTA -->
-                  @include('components.button' , ['text' => 'Gesamten Artikel lesen' , 'class'=>'btn-pry'])
+                  <div>@include('components.button' , ['text' => 'Gesamten Artikel lesen' , 'class'=>'btn-pry'])</div>
         </div>
 </div>

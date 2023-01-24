@@ -13,11 +13,11 @@ p {
   color: #b7b7ae;
 }
 .btn-pry {
-  @apply rounded-[4px] border-[1px] border-aesyc-background bg-gradient-to-r from-primary-0 to-primary-100 px-6 text-center font-sans text-base font-bold uppercase leading-6 text-bg1 md:leading-10;
+  @apply rounded-[4px] border-[1px] border-aesyc-background bg-gradient-to-r from-primary-0 to-primary-100 px-6 text-center font-sans text-[0.90rem] font-bold uppercase leading-9 text-bg1 md:text-base md:leading-10;
 }
 
 .btn-sec {
-  @apply rounded-[4px]  border-[1px] px-6 text-center font-sans text-base font-bold uppercase leading-10 text-primary-50;
+  @apply rounded-[4px]  border-[1px] px-6 text-center font-sans text-base font-bold uppercase leading-9 text-primary-50;
 }
 
 .blog-card {

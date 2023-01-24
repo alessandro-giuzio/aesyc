@@ -1,4 +1,4 @@
-<footer class="flex flex-col items-center justify-center bg-bg3 py-8 px-4 md:px-[120px]">
+<footer class="flex flex-col items-center justify-center bg-bg3 md:py-8 pb-24 px-4 md:px-[120px]">
   <!-- Container -->
   <div
     class="flex flex-col md:flex-row md:justify-between gap-16 lg:gap-64   justify-center items-center"
