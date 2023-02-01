@@ -1,17 +1,17 @@
 <section id="hero-landing">
     @include('partials.backgroundHome')
-     <div class="flex flex-col items-center justify-center pt-24 px-4 lg:px-[120px] pb-12  hero-pattern">
-        <div class="flex flex-col-reverse md:flex-row items-center justify-center gap-[72px]">
+<div class="flex flex-col items-center justify-center pt-4 md:pt-24 px-4 lg:px-[120px] pb-12  hero-pattern">
+    <div class="flex flex-col-reverse md:flex-row items-center justify-center gap-[72px]">
         <div class="flex flex-col items-start gap-12">
             {{-- text container --}}
-            <div class="flex flex-col items-start max-w-xl">
-                <p class="text-4xl text-txPri font-bold leading-[64px]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
-                <p class="text-2xl text-txSec font-normal leading-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+            <div class="flex flex-col items-start max-w-xl gap-4">
+                <h1 class="text-2xl md:text-4xl text-txPri font-bold md:leading-[64px]">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</h1>
+                <p class="text-xl md:text-2xl text-txSec font-normal md:leading-10">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
             </div>
             {{-- cta container --}}
-            <div class="flex  items-start gap-2 relative">
+            <div class="flex flex-col sm:flex-row  items-start gap-2 relative">
                 @include('components.button' , ['text' => 'Primary CTA' , 'class'=>'btn-pry'])
-                @include('components.button' , ['text' => 'Secondary CTA' , 'class'=>'btn-sec'])
+                @include('components.button' , ['text' => 'Another CTA' , 'class'=>'btn-sec'])
             </div>
             {{-- text & logo  --}}
             <div class="flex flex-col items-start gap-2">
@@ -25,8 +25,8 @@
          </div>
         {{-- town image container --}}
         <div class="relative">
-                <img src="@asset('../images/town.svg')" alt="" class="">
+           <img src="@asset('../images/town.svg')" alt="" class="">
         </div>
     </div>
- </div>
+</div>
 </section>

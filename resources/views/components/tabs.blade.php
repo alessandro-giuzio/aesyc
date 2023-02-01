@@ -51,13 +51,13 @@
   </li>
 </ul>
 <div class="tab-content" id="tabs-tabContent">
-  <div class="tab-pane fade show active text-lg text-txSec bg-bg2 font-normal leading-8 py-4 px-6 max-w-md" id="tabs-home" role="tabpanel" aria-labelledby="tabs-home-tab">
+  <div class="tab-pane fade show active text-base md:text-lg text-txSec bg-bg2 font-normal leading-8 py-4 px-6 max-w-md" id="tabs-home" role="tabpanel" aria-labelledby="tabs-home-tab">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus, mollitia iste temporibus ipsam natus nam autem a. Itaque, sint!
   </div>
-  <div class="tab-pane fade text-lg text-txSec bg-bg2 py-4 px-6 max-w-md" id="tabs-profile" role="tabpanel" aria-labelledby="tabs-profile-tab">
+  <div class="tab-pane fade text-base md:text-lg text-txSec bg-bg2 py-4 px-6 max-w-md" id="tabs-profile" role="tabpanel" aria-labelledby="tabs-profile-tab">
     Tab 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus, mollitia iste temporibus ipsam natus nam autem a. Itaque, sint!
   </div>
-  <div class="tab-pane fade text-lg text-txSec bg-bg2 py-4 px-6 max-w-md" id="tabs-messages" role="tabpanel" aria-labelledby="tabs-profile-tab">
+  <div class="tab-pane fade text-base md:text-lg text-txSec bg-bg2 py-4 px-6 max-w-md" id="tabs-messages" role="tabpanel" aria-labelledby="tabs-profile-tab">
     Tab 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos minus, mollitia iste temporibus ipsam natus nam autem a. Itaque, sint!
   </div>
 </div>

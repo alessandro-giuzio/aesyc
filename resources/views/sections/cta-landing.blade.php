@@ -4,8 +4,8 @@
             <div class="flex flex-col items-start md:items-center gap-12">
                 {{-- text container --}}
                 <div class="flex flex-col items-center">
-                    <p class="text-4xl text-txPri font-bold leading-[56px] text-center">Can’t resist the CTA</p>
-                    <p class="text-2xl text-txSec font-normal leading-10 text-center max-w-2xl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
+                    <h2 class="text-2xl md:text-4xl text-txPri font-bold md:leading-[56px] text-center">Can’t resist the CTA</h2>
+                    <p class="text-xl md:text-2xl text-txSec font-normal md:leading-10 text-center max-w-2xl">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                 </div>
                 {{-- cta container --}}
                 <div class="flex items-center gap-8">

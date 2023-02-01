@@ -1223,14 +1223,19 @@
           "fontFamily": "News Cycle,sans-serif"
         },
         {
-          "name": "Inter",
-          "slug": "body",
-          "fontFamily": "Inter,sans-serif"
+          "name": "Ui-serif",
+          "slug": "serif",
+          "fontFamily": "ui-serif,Georgia,Cambria,\"Times New Roman\",Times,serif"
         },
         {
           "name": "Roboto Mono",
           "slug": "mono",
           "fontFamily": "Roboto Mono,monospace"
+        },
+        {
+          "name": "Inter",
+          "slug": "body",
+          "fontFamily": "Inter,sans-serif"
         }
       ],
       "fontSizes": [

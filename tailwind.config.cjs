@@ -7,9 +7,6 @@ module.exports = {
     "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
-    fontFamily: {
-      sans: ["News Cycle", "sans-serif"],
-    },
     extend: {
       borderRadius: {
         "4xl": "2rem",
@@ -35,7 +32,6 @@ module.exports = {
 
         gradient: "linear-gradient(180deg, #DEE600 0%, #ADCC00 100%)",
       },
-
       fontFamily: {
         sans: ["News Cycle", "sans-serif"],
         mono: ["Roboto Mono", "monospace"],

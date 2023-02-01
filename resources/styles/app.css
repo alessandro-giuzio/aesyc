@@ -17,7 +17,7 @@ p {
 }
 
 .btn-sec {
-  @apply rounded-[4px]  border-[1px] px-6 text-center font-sans text-base font-bold uppercase leading-9 text-primary-50;
+  @apply rounded-[4px]  border-[1px] px-6 text-center font-sans text-base font-bold uppercase leading-9 text-primary-50 md:leading-10;
 }
 
 .blog-card {
@@ -138,6 +138,10 @@ ul.post-categories a {
 .carousel-indicators [data-bs-target] {
   @apply h-3 w-3  bg-primary-50;
   border-radius: 100%;
+}
+
+.stackOfChoice {
+  @apply absolute h-[400px] w-[400px] bg-[rgba(249,255,76,0.2)] blur-[250px];
 }
 
 /* * {
