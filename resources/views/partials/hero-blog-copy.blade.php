@@ -4,21 +4,15 @@
     </div>
     <div class="flex flex-col gap-4 z-heroHeading">
         <!-- Heading Container -->
-        <div class="flex flex-col  p-0">
+        <div class="flex flex-col items-start p-0">
             <!-- Category & Date Container -->
-            <div class="flex justify-between items-center py-2 px-0">
+            <div class="flex justify-between items-center py-2 px-0 gap-52">
                 <p class="text-sm text-primary-50 font-bold leading-4 text-center uppercase">
-
-                    {{-- show category post --}}
-                    category
-
+                    Category Tag
                 </p>
-
-                <time class="updated text-sm text-txSec font-normal leading-4 text-center"
-                    datetime="{{ get_post_time('c', true) }}">
-                    {{ get_the_date() }}
-                </time>
-
+                <p class="text-sm text-txSec font-normal leading-4 text-center">
+                    24.02.2024
+                </p>
             </div>
             <p class="text-2xl text-txPri font-bold leading-10">
                 Featured Blog Post

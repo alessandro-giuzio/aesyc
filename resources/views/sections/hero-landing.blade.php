@@ -11,9 +11,9 @@
                         consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
                 </div>
                 {{-- cta container --}}
-                <div class="flex flex-col justify-center  md:items-start gap-2 relative">
-                    @include('components.button', ['text' => 'Primary CTA', 'class' => 'btn-pry block'])
-                    @include('components.button', ['text' => 'Another CTA', 'class' => 'btn-sec block'])
+                <div class="flex flex-col  items-start gap-2 relative">
+                    @include('components.button', ['text' => 'Primary CTA', 'class' => 'btn-pry'])
+                    @include('components.button', ['text' => 'Another CTA', 'class' => 'btn-sec'])
                 </div>
                 {{-- text & logo  --}}
                 <div class="flex flex-col items-start gap-2">

@@ -19,9 +19,6 @@
                         </a>
                     @endforeach
                 @endif
-
-                {{-- {{ get_the_tags()[0]-> name }} --}}
-                {{--  {{ get_the_tags()[0]-> name }} --}}
             </p>
             <p class="text-sm text-txSec font-normal leading-4 text-center">
                 <time class="updated" datetime="{{ get_post_time('c', true) }}">
