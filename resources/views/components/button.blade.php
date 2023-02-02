@@ -1,3 +1,3 @@
-<button class="{{$class}}">
-    {{ $text}}
+<button class="{{ $class }}">
+    {{ $text }}
 </button>

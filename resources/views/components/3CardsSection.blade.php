@@ -7,21 +7,22 @@
         </div>
     </div>
     {{-- card container --}}
-<div class="flex flex-col md:flex-row items-start gap-12">
+    <div class="flex flex-col md:flex-row items-start gap-12">
         {{-- loop on the posts and show the first three blog post --}}
-@php
-
-$args = array(
-    'post_type' => 'post',
-    'posts_per_page' => 3,
-    'order' => 'DESC',
-    'orderby' => 'date',
-);
-query_posts($args);
-
-@endphp
- @while(have_posts())  @php(the_post())
- @include('partials.blog-card')
-@endwhile
-</div>
+        @php
+            
+            $args = [
+                'post_type' => 'post',
+                'posts_per_page' => 3,
+                'order' => 'DESC',
+                'orderby' => 'date',
+            ];
+            query_posts($args);
+            
+        @endphp
+        @while (have_posts())
+            @php(the_post())
+            @include('partials.blog-card')
+        @endwhile
+    </div>
 </div>

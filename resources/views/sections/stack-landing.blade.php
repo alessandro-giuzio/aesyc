@@ -3,12 +3,13 @@
         <div class="flex items-start py-24 px-4 md:px-[120px] gap-16">
             <div class="flex flex-col md:flex-row items-center p-0 gap-16 relative">
                 {{-- text --}}
-            <div class="flex flex-col items-start gap-4">
-                @include('partials.heading', ['text' => 'Our Stack of choice'])
-                <p class="text-base md:text-xl text-txSec font-normal md:leading-8 max-w-lg">
-                    Accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                </p>
-            </div>
+                <div class="flex flex-col items-start gap-4">
+                    @include('partials.heading', ['text' => 'Our Stack of choice'])
+                    <p class="text-base md:text-xl text-txSec font-normal md:leading-8 max-w-lg">
+                        Accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+                        Lorem ipsum dolor sit amet.
+                    </p>
+                </div>
                 {{-- icons --}}
                 <div class="flex flex-col items-start gap-12">
                     {{-- 1st row --}}

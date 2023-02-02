@@ -3,5 +3,5 @@
         <img src="@asset('../images/check.svg')" alt="">
         {{-- <img src="{{$img}}" alt=""> --}}
     </div>
-    <p class="text-xs md:text-base text-txPri font-normal leading-8">{{$title}}</p>
+    <p class="text-xs md:text-base text-txPri font-normal leading-8">{{ $title }}</p>
 </div>
