@@ -1,12 +1,12 @@
 <section id="hero">
-    <div class="flex flex-col md:flex-row justify-center py-24 px-4 lg:px-[120px]  bg-bg2">
+    <div class="flex flex-col md:flex-row  py-24 md:py-0   gap-32  bg-bg2">
         {{-- image container --}}
-        <div class="hidden md:block img-box relative">
+        <div class="hidden img-box-single md:flex justify-start items-start gap-3 relative ">
             @if (has_post_thumbnail())
-                <img src="{{ the_post_thumbnail_url() }}" alt="" class="w-full h-full object-cover">
+                <img src="{{ the_post_thumbnail_url() }}" alt="" class="">
             @endif
         </div>
-        <div class="flex flex-col items-start py-0 pr-0 pl-0 gap-4 z-[51]">
+        <div class="flex flex-col justify-center items-start py-0 pr-0 pl-0 gap-4 z-[51]">
             <div class="flex flex-col items-start gap-4">
                 <div class="flex flex-col items-start">
                     <p class="text-base text-txSec font-normal leading-4">CONSETETUR AMET</p>

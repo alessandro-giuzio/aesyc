@@ -11,7 +11,7 @@
 
                     {{-- show category post --}}
                     category
-
+                    @php(the_category())
                 </p>
 
                 <time class="updated text-sm text-txSec font-normal leading-4 text-center"

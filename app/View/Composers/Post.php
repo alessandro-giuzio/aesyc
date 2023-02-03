@@ -70,6 +70,9 @@ class Post extends Composer
         return get_the_title();
     }
 
+
 }
+
+
 
 
