@@ -20,7 +20,7 @@
         @endif
 
         {{-- blog posts cards --}}
-        <div class="flex flex-wrap  gap-8" style="flex-wrap:wrap">
+        <div class="flex items-baseline justify-center   flex-wrap  space-x-8 space-y-24" style="flex-wrap:wrap">
 
             @while (have_posts())
                 @php(the_post())

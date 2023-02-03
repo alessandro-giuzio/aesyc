@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mx-auto pt-4">
+    <div class="container mx-auto pt-24 pb-32">
         <div class="max-w-6xl mx-auto md:px-6 flex flex-col space-y-8 md:flex-row md:space-y-0 items-center md:space-x-36">
             <!-- Image Container -->
             <div class="md:basis-1/2 mx-auto relative">
@@ -112,5 +112,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="flex items-center justify-center">
         @include('components.3CardsSection', ['heading' => 'Entdecke unseren Blog'])
-    @endsection
+    </div>
+@endsection
