@@ -1,5 +1,5 @@
 <section id="hero">
-    <div class="flex flex-col md:flex-row  py-24 md:py-0   gap-32  bg-bg2">
+    <div class="flex flex-col md:flex-row py-24 md:py-0 gap-32 bg-bg2">
         {{-- image container --}}
         <div class="hidden img-box-single md:flex justify-start items-start gap-3 relative ">
             @if (has_post_thumbnail())

@@ -4,10 +4,10 @@
         <img src="@asset('images/blog/blog-card-1.png')" alt="prova">
     </div>
     <!-- Heading Container -->
-    <div class="flex flex-col items-start p-0">
+    <div class="flex flex-col p-0">
         <!-- Category & Date Container -->
-        <div class="flex justify-between items-center py-2 px-0 gap-52">
-            <p class="text-sm text-primary-50 font-bold leading-4 text-center uppercase">
+        <div class="flex justify-between py-2 px-0 ">
+            <p class="text-sm text-primary-50 font-bold leading-4  uppercase">
                 @if (!get_the_tags())
                     <a href="{{ get_permalink() }}" class="text-primary-50">
                         {{ __('Alle Kategorien') }}
@@ -20,7 +20,7 @@
                     @endforeach
                 @endif
             </p>
-            <p class="text-sm text-txSec font-normal leading-4 text-center">
+            <p class="text-sm text-txSec font-normal leading-4 ">
                 <time class="updated" datetime="{{ get_post_time('c', true) }}">
                     {{ get_the_date() }}
                 </time>

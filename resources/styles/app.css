@@ -21,7 +21,7 @@ p {
 }
 
 .blog-card {
-  @apply flex flex-col items-start gap-4 p-0;
+  @apply flex flex-col gap-4 p-0;
 }
 /* page navigation */
 .pagenavi {

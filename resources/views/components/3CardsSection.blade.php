@@ -1,13 +1,13 @@
 <div class="bg-bg1 flex flex-col items-center justify-center pt-0 px-4 lg:px-[120px] pb-24 gap-8">
     {{-- heading --}}
-    <div class="flex justify-between w-full ">
+    <div class="flex justify-between w-full">
         <p class="text-3xl text-txPri font-bold leading-10">{{ $heading }}</p>
         <div class="flex flex-col items-center justify-center gap-3">
             <a href="/blog" class="text-base text-primary-0 font-normal leading-6">Alle Beiträge ansehen →</a>
         </div>
     </div>
-    {{-- card container --}}
-    <div class="flex flex-col md:flex-row items-start gap-12">
+    {{-- cards container --}}
+    <div class="flex flex-col md:flex-row items-center justify-center gap-12">
         {{-- loop on the posts and show the first three blog post --}}
         @php
             

@@ -5,7 +5,7 @@
     </h1> --}}
     </header>
 
-    <div class="entry-content prose lg:prose-xl mx-auto items-center">
+    <div class="entry-content prose lg:prose-xl mx-auto items-center pt-12 pb-24">
         <div class="flex items-center w-full justify-between">
             @php(the_category())
             {{-- post date --}}
