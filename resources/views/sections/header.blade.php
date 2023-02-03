@@ -20,13 +20,14 @@
                     fill="#DBDBD7" />
             </g>
 
+
             </svg>
         </div>
         <!-- Nav Container -->
         <nav
             class="z-navbar md:z-10 bottom-0 left-0 bg-neutral-50 md:bg-transparent px-4 w-full  fixed md:top-0 md:left-0 md:relative flex gap-4 text-xs md:text-base grow items-center justify-center md:items-start md:justify-start">
             <a class="basis-1/5 md:basis-auto text-base text-bg3 md:text-txPri font-normal leading-10   flex flex-col py-2 md:py-0 md:inline  lg:px-4 text-center"
-                href="#" target="_blank" rel="noopener noreferrer">
+                href="/home" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="md:hidden mx-auto" width="24" height="24"
                     viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
                     stroke-linejoin="round">
@@ -38,7 +39,7 @@
                 Home
             </a>
             <a class="basis-1/5 md:basis-auto text-base text-bg3 md:text-txPri font-normal leading-10   flex flex-col py-2 md:py-0 md:inline  lg:px-4 text-center"
-                href="/blog" target="_blank" rel="noopener noreferrer">
+                href="/blog" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" class="md:hidden mx-auto" width="24" height="24"
                     viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" fill="none" stroke-linecap="round"
                     stroke-linejoin="round">
